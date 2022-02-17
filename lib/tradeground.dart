@@ -54,6 +54,9 @@ class _TradeGroundState extends State<TradeGround> {
    var walletID;
    dynamic Actualbal;
 
+  
+  
+
   Future viewhive() async {
     final balbox = Hive.box('user');
     print(balbox.get('walletBalance'));
@@ -65,6 +68,7 @@ class _TradeGroundState extends State<TradeGround> {
     print('Actualbalance is $Actualbal');
     print('walletID is $walletID');
   }
+
 
 
   getremotevalues() {}
@@ -122,7 +126,7 @@ class _TradeGroundState extends State<TradeGround> {
                       ),
 
                                Text(
-                        "000000000",
+                        "$walletID",
                         style: GoogleFonts.montserrat(
                             fontSize: 20,
                             

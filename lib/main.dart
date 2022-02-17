@@ -3,6 +3,7 @@
 import 'dart:io';
 
 
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:thiago_exchange/intro.dart';
@@ -19,6 +20,8 @@ void main()  async{
  await Firebase.initializeApp();
  Directory myDir = await getTemporaryDirectory();
  String mypath= myDir.path;
+ Hive.init(mypath);
+ await Hive.openBox('WalletID');
 
 
   Directory appDocDir = await getApplicationDocumentsDirectory();

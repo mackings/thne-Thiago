@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.14.4-116.0.stable<3.0.0"
+  sdk: ">=2.15.0-268.8.beta<3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -36,9 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.4
   google_fonts: ^2.1.0
   flutter_svg: ^0.23.0+1
-  firebase_core: ^1.10.0
-  firebase_auth: ^3.2.0
-  firebase_storage: ^10.1.0
+  firebase_core: ^1.10.6
+  firebase_auth: ^3.3.4
+  firebase_storage: ^10.2.4
   firebase_remote_config: ^0.11.0+2
   firebase_analytics: ^8.3.4
   awesome_notifications: ^0.6.17
@@ -47,7 +47,7 @@ dependencies:
   fluttertoast: ^8.0.8
  
   url_launcher: ^6.0.15
-  firebase_database: ^8.1.0
+  firebase_database: ^9.0.4
   flutter_webview_plugin: ^0.4.0
   shared_preferences: ^2.0.9
   video_player: ^2.2.7
@@ -59,6 +59,7 @@ dependencies:
   hive_flutter: ^1.1.0
   path_provider: ^2.0.5
   path: ^1.8.0
+
 
 
 dev_dependencies:
